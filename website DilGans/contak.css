@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.main1{
+height: 100vh;
+width: 100%;
+background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("1.jpg");
+background-size: cover;
+background-position:center;
+}
+.navbar{
+    width: 85%;
+    margin:auto;
+    padding: 35px 0;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 35px;
+    font-weight: bold;
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style:none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    color: white;
+    text-transform: uppercase;
+}
+.navbar ul li ::after{
+    content: ' ';
+    height: 3px;
+    width: 100%;
+    background: green;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.div1{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    color: white;
+    text-transform: uppercase;
+
+}
+.div1 ul li {
+    list-style-type: none;
+    color: white;
+    text-transform: uppercase;
+    float: left;
+    margin: 5px;
+   
+}
+.div1 a {
+    color: white;
+}
+button{
+    width: 200px;
+    margin: 20px 10px;
+    padding: 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight:bold ;
+    color: white;
+    background: transparent;
+    border: 3px solid green;
+    position: relative;
+    cursor: pointer;
+    border-radius:10px ;
+    overflow: hidden;
+}
